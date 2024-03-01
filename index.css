@@ -19,4 +19,17 @@ body {
     line-height: 1.5;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
     cursor: move;
+    flex-direction: column;
+}
+
+button {
+  animation: blink .7s steps(2, start) infinite;
+  background: #E1FF5F;
+  border-radius: 2px;
+  color: #202020;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+  display: block;
+  margin-top: 10px;
 }
